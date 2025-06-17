@@ -24,6 +24,7 @@
     pkgs.obsidian
     pkgs.steam
     pkgs.vesktop
+    pkgs.vimPlugins.nvchad
   ];
   programs.git = {
     userName = "mattiabosetti";
