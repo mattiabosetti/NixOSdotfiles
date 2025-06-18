@@ -13,6 +13,7 @@
     gcc
     firefox
     python314
+    eza
   ];
     
   programs.neovim = {
