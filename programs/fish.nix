@@ -12,14 +12,13 @@
     enable = true;
 
     shellAliases = {
-      # ls = "ls -l";
-      # la = "ls -a";
       gs = "git status";
       cdNix = "cd /etc/nixos";
       editNix = "sudoedit /etc/nixos/configuration.nix";
-      homeSwitch = "home-manager switch";
-      nixosSwitch = "sudo nixos-rebuild switch";
-      editHome = "code ~/.config/home-manager/";
+      homeSwitch = "home-manager switch --flake .";
+      nixosSwitch = "sudo nixos-rebuild switch --flake .";
+      cdDot = "cd ~/.dotfiles";
+      edit = "code ~/.dotfiles/";
 
       ls="eza --icons --color=always --group-directories-first";
       ll="eza -alF --icons --color=always --group-directories-first";
