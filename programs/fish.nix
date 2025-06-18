@@ -10,7 +10,7 @@
   ];
     programs.fish = {
     enable = true;
-    
+
     shellAliases = {
       ls = "ls -l";
       la = "ls -a";
@@ -20,6 +20,11 @@
       homeSwitch = "home-manager switch";
       nixosSwitch = "sudo nixos-rebuild switch";
       editHome = "code ~/.config/home-manager/";
+
+      ls="eza --icons --color=always --group-directories-first";
+      ll="eza -alF --icons --color=always --group-directories-first";
+      la="eza -a --icons --color=always --group-directories-first";
+      l="eza -F --icons --color=always --group-directories-first";
       };
     };
 }

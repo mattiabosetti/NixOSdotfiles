@@ -26,6 +26,7 @@
     pkgs.vesktop
     pkgs.vimPlugins.nvchad
     pkgs.appimage-run
+    pkgs.eza
   ];
   programs.git = {
     userName = "mattiabosetti";
