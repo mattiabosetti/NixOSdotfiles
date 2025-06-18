@@ -25,6 +25,7 @@
     pkgs.steam
     pkgs.vesktop
     pkgs.vimPlugins.nvchad
+    pkgs.appimage-run
   ];
   programs.git = {
     userName = "mattiabosetti";
