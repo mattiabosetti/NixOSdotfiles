@@ -18,7 +18,7 @@
       homeSwitch = "home-manager switch --flake .";
       nixosSwitch = "sudo nixos-rebuild switch --flake .";
       cdDot = "cd ~/.dotfiles";
-      edit = "code ~/.dotfiles/";
+      editDot = "code ~/.dotfiles/";
 
       ls="eza --icons --color=always --group-directories-first";
       ll="eza -alF --icons --color=always --group-directories-first";
