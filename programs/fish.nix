@@ -12,8 +12,8 @@
     enable = true;
 
     shellAliases = {
-      ls = "ls -l";
-      la = "ls -a";
+      # ls = "ls -l";
+      # la = "ls -a";
       gs = "git status";
       cdNix = "cd /etc/nixos";
       editNix = "sudoedit /etc/nixos/configuration.nix";
