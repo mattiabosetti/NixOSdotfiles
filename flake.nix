@@ -18,7 +18,7 @@
     in
     {
       nixosConfigurations = {
-        nixos = lib.nixosSystem {
+        mattia-nixos = lib.nixosSystem {
           inherit system;
           modules = [ ./configuration.nix ];
         };

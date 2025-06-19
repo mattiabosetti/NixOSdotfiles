@@ -27,6 +27,7 @@
     pkgs.vimPlugins.nvchad
     pkgs.appimage-run
     pkgs.stow
+    pkgs.kdePackages.kdenlive
   ];
   programs.git = {
     userName = "mattiabosetti";
