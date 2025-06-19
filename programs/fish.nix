@@ -17,8 +17,8 @@
       editNix = "sudoedit /etc/nixos/configuration.nix";
       homeSwitch = "home-manager switch --flake .";
       nixosSwitch = "sudo nixos-rebuild switch --flake .";
-      cdDot = "cd ~/.dotfiles";
-      editDot = "code ~/.dotfiles/";
+      cdDot = "cd ~/.dotfiles/nix";
+      editDot = "code ~/.dotfiles/nix";
 
       ls="eza --icons --color=always --group-directories-first";
       ll="eza -alF --icons --color=always --group-directories-first";
