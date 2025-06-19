@@ -26,6 +26,7 @@
     pkgs.vesktop
     pkgs.vimPlugins.nvchad
     pkgs.appimage-run
+    pkgs.stow
   ];
   programs.git = {
     userName = "mattiabosetti";
