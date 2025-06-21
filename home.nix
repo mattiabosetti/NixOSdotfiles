@@ -28,6 +28,8 @@
     pkgs.appimage-run
     pkgs.stow
     pkgs.kdePackages.kdenlive
+    pkgs.qtcreator
+    pkgs.rustup
   ];
   programs.git = {
     userName = "mattiabosetti";
