@@ -2,7 +2,11 @@
 {
  
   services.displayManager.sddm = {
-    enable = true;
+    settings = {
+    General = {
+      Background = "/home/mattiab/Pictures/Wallpapers/15-Sequoia-Sunrise.png";
+    };
+  };
   };
 
   services.desktopManager.plasma6 = {
