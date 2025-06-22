@@ -1,7 +1,7 @@
 { config, pkgs, ... }:
 
 {
-  networking.hostName = "nixos"; # Define your hostname.
+  networking.hostName = "mattia-nixos"; # Define your hostname.
   networking.networkmanager.enable = true;
 
   networking.firewall.allowedTCPPortRanges = [
