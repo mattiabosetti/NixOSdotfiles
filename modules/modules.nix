@@ -8,5 +8,6 @@
       ./xserver.nix
       ./audio.nix
       ./users.nix
+      ./virtualization.nix
     ];
 }

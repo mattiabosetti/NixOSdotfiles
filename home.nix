@@ -5,7 +5,7 @@
   imports =
   [
     ./homePrograms/homePrograms.nix
-  ]
+  ];
 
   nixpkgs.config.allowUnfree = true;
 
@@ -36,6 +36,8 @@
     pkgs.qtcreator
     pkgs.rustup
     pkgs.kitty
+    pkgs.virt-manager
+    pkgs.qemu
   ];
   programs.git = {
     userName = "mattiabosetti";
