@@ -19,6 +19,7 @@
       nixosSwitch = "sudo nixos-rebuild switch --flake .";
       cdDot = "cd ~/.dotfiles/nix";
       editDot = "cd ~/.dotfiles/nix && code . ";
+      clean = "sudo nix-env --delete-generations +5 && sudo nix-collect-garbage -d";
 
       ls="eza --icons --color=always --group-directories-first";
       ll="eza -alF --icons --color=always --group-directories-first";
