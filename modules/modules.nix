@@ -9,5 +9,6 @@
       ./audio.nix
       ./users.nix
       ./virtualization.nix
+      ./cleaning.nix
     ];
 }
