@@ -2,6 +2,11 @@
 
 {
 
+  imports =
+  [
+    ./homePrograms/homePrograms.nix
+  ]
+
   nixpkgs.config.allowUnfree = true;
 
   home.username = "mattiab";
