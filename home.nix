@@ -30,6 +30,7 @@
     pkgs.kdePackages.kdenlive
     pkgs.qtcreator
     pkgs.rustup
+    pkgs.kitty
   ];
   programs.git = {
     userName = "mattiabosetti";
