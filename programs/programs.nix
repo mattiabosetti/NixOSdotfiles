@@ -14,6 +14,7 @@
     firefox
     python314
     eza
+    mesa
   ];
     
   programs.neovim = {
