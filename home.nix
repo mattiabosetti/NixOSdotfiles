@@ -38,6 +38,7 @@
     pkgs.kitty
     pkgs.virt-manager
     pkgs.qemu
+    pkgs.temurin-bin
   ];
   programs.git = {
     userName = "mattiabosetti";
