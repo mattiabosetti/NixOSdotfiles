@@ -39,6 +39,7 @@
     pkgs.virt-manager
     pkgs.qemu
     pkgs.temurin-bin
+    pkgs.rofi
   ];
   programs.git = {
     userName = "mattiabosetti";
