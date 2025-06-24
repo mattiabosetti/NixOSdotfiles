@@ -6,7 +6,6 @@
       ./modules/modules.nix
       ./wm/kde.nix
       ./wm/hyprland.nix
-      ./hyprlandPackages/hyprlandPackages.nix
     ];
 
 }
