@@ -20,6 +20,7 @@
       cdDot = "cd ~/.dotfiles/nix";
       editDot = "cd ~/.dotfiles/nix && code . ";
       clean = "sudo nix-env --delete-generations +5 && sudo nix-collect-garbage -d";
+      gemini = "npx https://github.com/google-gemini/gemini-cli";
 
       ls="eza --icons --color=always --group-directories-first";
       ll="eza -alF --icons --color=always --group-directories-first";
