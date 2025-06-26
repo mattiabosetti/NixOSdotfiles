@@ -40,6 +40,7 @@
     pkgs.qemu
     pkgs.temurin-bin
     pkgs.rofi
+    pkgs.nodejs_24
   ];
   programs.git = {
     userName = "mattiabosetti";
