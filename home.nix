@@ -14,33 +14,35 @@
 
   home.stateVersion = "24.11"; 
 
-  home.packages = [
-    pkgs.kdePackages.kcalc
-    pkgs.kdePackages.kate
-    pkgs.kdePackages.discover
-    pkgs.vscode
-    pkgs.obs-studio
-    pkgs.fastfetch
-    pkgs.starship
-    pkgs.lutris
-    pkgs.wine
-    pkgs.wine-wayland
-    pkgs.lazygit
-    pkgs.obsidian
-    pkgs.steam
-    pkgs.vesktop
-    pkgs.vimPlugins.nvchad
-    pkgs.appimage-run
-    pkgs.stow
-    pkgs.kdePackages.kdenlive
-    pkgs.qtcreator
-    pkgs.rustup
-    pkgs.kitty
-    pkgs.virt-manager
-    pkgs.qemu
-    pkgs.temurin-bin
-    pkgs.rofi
-    pkgs.nodejs_24
+  home.packages = with pkgs; [
+    kdePackages.kcalc
+    kdePackages.kate
+    kdePackages.discover
+    vscode
+    obs-studio
+    fastfetch
+    starship
+    lutris
+    wine
+    wine-wayland
+    lazygit
+    obsidian
+    steam
+    vesktop
+    vimPlugins.nvchad
+    appimage-run
+    stow
+    kdePackages.kdenlive
+    qtcreator
+    rustup
+    kitty
+    virt-manager
+    qemu
+    temurin-bin
+    rofi
+    nodejs_24
+    gemini-cli
+    dotnet-sdk_9
   ];
   programs.git = {
     userName = "mattiabosetti";
