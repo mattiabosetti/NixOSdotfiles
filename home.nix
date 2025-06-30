@@ -9,7 +9,15 @@
   ];
 
   nixpkgs.config.allowUnfree = true;
-  illogical-impulse.hyprland.enable = true;
+
+  illogical-impulse.enable = true;
+
+  illogical-impulse.hyprland = {
+    package = pkgs.hyprland; # o inputs.hypr.hyprland se vuoi custom
+    xdgPortalPackage = pkgs.xdg-desktop-portal-hyprland;
+    ozoneWayland.enable = true;
+  };
+
 
   home.username = "mattiab";
   home.homeDirectory = "/home/mattiab";
