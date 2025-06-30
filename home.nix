@@ -5,6 +5,7 @@
   imports =
   [
     ./homePrograms/homePrograms.nix
+    inputs.illogical-impulse.homeManagerModules.default
   ];
 
   nixpkgs.config.allowUnfree = true;
