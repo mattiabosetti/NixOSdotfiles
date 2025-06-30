@@ -10,8 +10,7 @@
     };
   };
 
-  outputs =
-    { self, nixpkgs, home-manager, ... }:
+  outputs = inputs@{ self, nixpkgs, home-manager, illogical-impulse, ... }:
     let
       lib = nixpkgs.lib;
       system = "x86_64-linux";
@@ -24,12 +23,13 @@
           modules = [ ./configuration.nix ];
         };
       };
+
       homeConfigurations = {
         mattiab = home-manager.lib.homeManagerConfiguration {
           inherit pkgs;
           extraSpecialArgs = { inherit inputs; };
           modules = [ ./home.nix ];
         };
-        }; 
       };
+    };
 }
