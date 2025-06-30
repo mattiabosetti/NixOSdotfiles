@@ -43,7 +43,8 @@
     nodejs_24
     gemini-cli
     dotnet-sdk_9
-  ];
+    libarchive
+      ];
   programs.git = {
     userName = "mattiabosetti";
     userEmail = "mattbos.2007@gmail.com";
