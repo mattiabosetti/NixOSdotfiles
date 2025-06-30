@@ -9,7 +9,7 @@
   ];
 
   nixpkgs.config.allowUnfree = true;
-  illogical-impulse.hyprland.enable;
+  illogical-impulse.hyprland.enable = true;
 
   home.username = "mattiab";
   home.homeDirectory = "/home/mattiab";
