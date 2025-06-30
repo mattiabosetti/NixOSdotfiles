@@ -2,7 +2,7 @@
 
 {
 
-  imports =
+  imports =ò
   [
     ./homePrograms/homePrograms.nix
     inputs.illogical-impulse.homeManagerModules.default
