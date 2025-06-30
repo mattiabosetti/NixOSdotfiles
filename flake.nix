@@ -2,7 +2,7 @@
   description = "Home Manager configuration of mattiab";
 
   inputs = {
-    inputs.illogical-impulse.url = "github:xBLACKICEx/end-4-dots-hyprland-nixos";
+    illogical-impulse.url = "github:xBLACKICEx/end-4-dots-hyprland-nixos";
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     home-manager = {
       url = "github:nix-community/home-manager";
