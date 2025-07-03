@@ -54,6 +54,7 @@
     gemini-cli
     dotnet-sdk_9
     libarchive
+    cava
     tmux
       ];
   programs.git = {
