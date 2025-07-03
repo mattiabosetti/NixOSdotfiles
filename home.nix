@@ -2,7 +2,7 @@
 
 {
 
-  imports =ò
+  imports =
   [
     ./homePrograms/homePrograms.nix
     inputs.illogical-impulse.homeManagerModules.default
@@ -54,6 +54,7 @@
     gemini-cli
     dotnet-sdk_9
     libarchive
+    tmux
       ];
   programs.git = {
     userName = "mattiabosetti";
