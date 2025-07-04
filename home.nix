@@ -56,6 +56,7 @@
     libarchive
     cava
     tmux
+    btop
       ];
   programs.git = {
     userName = "mattiabosetti";
