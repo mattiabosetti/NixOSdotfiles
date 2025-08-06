@@ -47,9 +47,7 @@
     cava
     tmux
     btop
-
-    git-credential-keepassxc
-      ];
+          ];
   programs.git = {
     enable = true;
     userName = "mattiabosetti";
