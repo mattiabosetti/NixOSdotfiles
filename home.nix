@@ -4,7 +4,7 @@
 
   imports =
   [
-    ./homePrograms/homePrograms.nix
+    # ./homePrograms/homePrograms.nix
   ];
 
   nixpkgs.config.allowUnfree = true;
@@ -49,6 +49,7 @@
     btop
       ];
   programs.git = {
+    enable = true;
     userName = "mattiabosetti";
     userEmail = "mattbos.2007@gmail.com";
   };
