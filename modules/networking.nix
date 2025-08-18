@@ -12,16 +12,11 @@
     { from = 1714; to = 1764; } # KDE Connect
   ];
 
-    # NetworkManager base
-  networking.networkmanager.enable = true;
-  networking.wireless.enable = false;
-
   # Firmware e permessi
   hardware.enableAllFirmware = true;
-  nixpkgs.config.allowUnfree = true;
 
   # Kernel più recente (importante per RTL8822CE)
-boot.kernelPackages = pkgs.linuxPackages_latest;
+  boot.kernelPackages = pkgs.linuxPackages_latest;
 
   # Driver specifici per RTL8822CE
   boot.extraModulePackages = with config.boot.kernelPackages; [
