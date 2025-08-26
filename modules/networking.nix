@@ -36,7 +36,6 @@
   environment.systemPackages = with pkgs; [
     pciutils
     iw
-    wireless-tools
   ];
 
 }
